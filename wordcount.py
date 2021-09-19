@@ -22,12 +22,16 @@ def main():
     test_str02 = "It is a very nice day to is it not ok it"
 
     count01 = word_count(test_str01, "There")
-    count02 = word_count(test_str02, "it")
+    count02 = word_count(test_str01, "something")
+    count03 = word_count(test_str02, "it")
+    count04 = word_count(test_str02, "beach")
 
     print(count01)
     print(count02)
+    print(count03)
+    print(count04)
 
 
 if __name__ == '__main__':
-    # TODO: add full problem description and add more test cases
+    # TODO: add full problem description
     main()
