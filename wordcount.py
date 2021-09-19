@@ -33,5 +33,16 @@ def main():
 
 
 if __name__ == '__main__':
-    # TODO: add full problem description
+    '''
+        Word count problem
+        
+        Given a string of words separated by whitespace calculate the count of a given target word.
+        
+        Assumptions:
+        
+        1. words are not case sensitive, so both lowercase and capital versions of a word should count
+        2. no punctuation exists in the string
+        3. if a word appears consecutively it should not count towards the count.
+           ex. string "foo foo bar" with target word "foo" should return a count of 1
+    '''
     main()
