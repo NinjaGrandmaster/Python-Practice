@@ -12,15 +12,20 @@ def word_count(input_str, target):
                 count += 1
         else:
             if words[0] == target:
-                count += 0
+                count += 1
 
     return count
 
 
 def main():
     test_str01 = "Hello There There is something there today there"
-    count = word_count(test_str01, "There")
-    print(count)
+    test_str02 = "It is a very nice day to is it not ok it"
+
+    count01 = word_count(test_str01, "There")
+    count02 = word_count(test_str02, "it")
+
+    print(count01)
+    print(count02)
 
 
 if __name__ == '__main__':
