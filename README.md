@@ -1,3 +1,3 @@
 # Python-Practice
 
-Repository contains practice problems done usingPython 3
+Repository contains practice problems done using Python 3
