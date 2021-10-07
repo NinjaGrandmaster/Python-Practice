@@ -4,16 +4,11 @@
 # array123([1, 1, 2, 4, 1]) → False
 # array123([1, 1, 2, 1, 2, 3]) → True
 def array123(nums):
-    num_in_seq = 1
-    count = 0
-
-    for num in nums:
-        if num == num_in_seq and num_in_seq <= 3:
-            count += 1
-            num_in_seq += 1
-
-    if count == 3:
-        return True
+    # loop through array checking current value and following two values for the 1, 2, 3 sequence
+    # return true if sequence is found else return false
+    for i in range(len(nums) - 2):
+        if nums[i] == 1 and nums[i+1] == 2 and nums[i+2] == 3:
+            return True
 
     return False
 
