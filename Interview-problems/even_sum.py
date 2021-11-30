@@ -1,4 +1,4 @@
-# wite a function to compute the sum of even numbers in an array
+# write a function to compute the sum of even numbers in an array
 def even_sum(arr):
     sum_total = 0
     for num in arr:
